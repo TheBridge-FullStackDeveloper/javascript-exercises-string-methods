@@ -47,8 +47,8 @@ function getTrim(string) {
 }
 
 // =============================================================================
-// 7. Dada la siguiente string, usa .split() para devolver un string
-//    con las palabras que forman frase.
+// 7. Dada la siguiente string, usa .split() para devolver un array
+//    con las palabras que forman la frase.
 // =============================================================================
 function getSplit(string) {
   // Aquí tu código
@@ -56,7 +56,7 @@ function getSplit(string) {
 
 // =============================================================================
 // 8. Dada la siguiente string, usa .replace() para devolver un string
-//    con las palabras que forman frase.
+//    con las palabras que forman la frase.
 // =============================================================================
 function getReplace(string) {
   // Aquí tu código
@@ -80,7 +80,7 @@ function getStartsWith(string) {
 
 // =============================================================================
 // 11. Dada la siguiente string, usa .endsWith() para devolver true
-//     si la palabra 'the' está al final de la frase.
+//     si la palabra 'here' está al final de la frase.
 // =============================================================================
 function getEndsWith(string) {
   // Aquí tu código
