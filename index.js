@@ -64,7 +64,7 @@ function getReplace(string) {
 
 // =============================================================================
 // 9. Dada la siguiente string, usa .indexOf() para devolver posición
-//    de la palabra 'the'.
+//    de la palabra 'The'.
 // =============================================================================
 function getIndexOf(string) {
   // Aquí tu código
