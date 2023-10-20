@@ -1,103 +1,67 @@
-describe('Variables', function () {
-  it('name debe ser un string', function () {
-    expect(typeof name).toBe('string');
+describe("Pruebas para funciones de manipulación de cadenas de texto", function() {
+
+  // Prueba para getCharAt
+  it("Debería devolver 'b'", function() {
+    expect(getCharAt("the-bridge")).toBe("v");
   });
 
-  it('age debe ser un integer', function () {
-    expect(Number.isInteger(age)).toBe(true);
+  // Prueba para getSubstring
+  it("Debería devolver 'the-bridge'", function() {
+    expect(getSubstring("the-bridge-is-here")).toBe("the-bridge");
   });
 
-  it('hasHobbies debe ser un booleano', function () {
-    expect(typeof hasHobbies).toBe('boolean');
+  // Prueba para getSubstr
+  it("Debería devolver 'the-bridge'", function() {
+    expect(getSubstr("the-bridge-is-here")).toBe("the-bridge");
   });
 
-  it('empty debe ser undefined', function () {
-    expect(empty).toBeUndefined();
+  // Prueba para getUpperCase
+  it("Debería devolver 'THE-BRIDGE'", function() {
+    expect(getUpperCase("the-bridge")).toBe("THE-BRIDGE");
   });
 
-  it('undefinedVariable debe ser undefined', function () {
-    expect(undefinedVariable).toBeUndefined();
+  // Prueba para getLowerCase
+  it("Debería devolver 'the-bridge'", function() {
+    expect(getLowerCase("THE-BRIDGE")).toBe("the-bridge");
   });
 
-  it('nullVariable debe ser null', function () {
-    expect(nullVariable).toBeNull();
-  });
-});
-
-describe('Funciones', function () {
-  it('sayHello debe retornar "Hello"', function () {
-    expect(sayHello()).toBe('Hello');
+  // Prueba para getTrim
+  it("Debería devolver 'the-bridge'", function() {
+    expect(getTrim("  the-bridge   ")).toBe("the-bridge");
   });
 
-  it('add debe sumar dos números correctamente', function () {
-    expect(add(2, 3)).toBe(5);
+  // Prueba para getSplit
+  it("Debería devolver un array con las palabras", function() {
+    expect(getSplit("The Bridge is great")).toEqual(["The", "Bridge", "is", "great"]);
   });
 
-  it('sayHelloTo debe saludar al nombre proporcionado', function () {
-    expect(sayHelloTo('Alice')).toBe('Hello, Alice');
+  // Prueba para getReplace
+  it("Debería devolver la frase con las palabras reemplazadas", function() {
+    expect(getReplace("The Bridge is great", "great", "amazing")).toBe("The Bridge is amazing");
   });
 
-  it('isGreater debe retornar true si a es mayor que b', function () {
-    expect(isGreater(5, 3)).toBe(true);
+  // Prueba para getIndexOf
+  it("Debería devolver la posición de 'the'", function() {
+    expect(getIndexOf("The Bridge is great")).toBe(0);
   });
 
-  it('isEqual debe retornar true si a es igual a b', function () {
-    expect(isEqual(5, 5)).toBe(true);
+  // Prueba para getStartsWith
+  it("Debería devolver true si empieza con 'the'", function() {
+    expect(getStartsWith("the-bridge-is-here")).toBe(true);
   });
 
-  it('isDifferent debe retornar true si a es diferente a b', function () {
-    expect(isDifferent(5, 3)).toBe(true);
+  // Prueba para getEndsWith
+  it("Debería devolver true si termina con 'the'", function() {
+    expect(getEndsWith("the-bridge-is-here")).toBe(true);
   });
 
-  it('isGreaterOr debe retornar true si a es mayor que b o c es mayor que d', function () {
-    expect(isGreaterOr(5, 3, 7, 2)).toBe(true);
+  // Prueba para getIncludes
+  it("Debería devolver true si contiene 'the'", function() {
+    expect(getIncludes("the-bridge-is-here")).toBe(true);
   });
 
-  it('isGreaterAnd debe retornar true si a es mayor que b y c es mayor que d', function () {
-    expect(isGreaterAnd(5, 3, 7, 2)).toBe(true);
-  });
-
-  it('isEven debe retornar true si el número es par', function () {
-    expect(isEven(4)).toBe(true);
-  });
-
-  it('isEven debe retornar false si el número es impar', function () {
-    expect(isEven(3)).toBe(false);
-  });
-
-  it('isOdd debe retornar true si el número es impar', function () {
-    expect(isOdd(3)).toBe(true);
-  });
-
-  it('isOdd debe retornar false si el número es par', function () {
-    expect(isOdd(4)).toBe(false);
-  });
-
-  it('isPositive debe retornar true si el número es positivo', function () {
-    expect(isPositive(5)).toBe(true);
-  });
-
-  it('isPositive debe retornar false si el número es negativo', function () {
-    expect(isPositive(-3)).toBe(false);
-  });
-
-  it('isPositive debe retornar true si el número es cero', function () {
-    expect(isPositive(0)).toBe(true);
-  });
-
-  it('debería retornar "LI" para el nombre "Giorgio"', function () {
-    expect(getAgeByName('Giorgio')).toBe('LI');
-  });
-
-  it('debería retornar "LI" para el nombre "Ivan"', function () {
-    expect(getAgeByName('Ivan')).toBe('LI');
-  });
-
-  it('debería retornar "TA" para el nombre "Marcos"', function () {
-    expect(getAgeByName('Marcos')).toBe('TA');
-  });
-
-  it('debería retornar "Not found" para un nombre no encontrado', function () {
-    expect(getAgeByName('Alex')).toBe('Not found');
+  // Prueba para getConcat
+  it("Debería devolver 'the-bridgethe-bridge'", function() {
+    expect(getConcat("the-bridge", "the-bridge")).toBe("the-bridgethe-bridge");
   });
 });
