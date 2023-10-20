@@ -4,6 +4,7 @@
 // =============================================================================
 function getCharAt(string) {
   // Aquí tu código
+  return string.charAt(4)
 }
 
 // =============================================================================
@@ -12,6 +13,7 @@ function getCharAt(string) {
 // =============================================================================
 function getSubstring(string) {
   // Aquí tu código
+  return string.substring(0, 10)
 }
 
 // =============================================================================
@@ -20,6 +22,7 @@ function getSubstring(string) {
 // =============================================================================
 function getSubstr(string) {
   // Aquí tu código
+  return string.substr(4, 6);
 }
 
 // =============================================================================
@@ -28,6 +31,7 @@ function getSubstr(string) {
 // =============================================================================
 function getUpperCase(string) {
   // Aquí tu código
+  return string.toUpperCase()
 }
 
 // =============================================================================
@@ -36,6 +40,7 @@ function getUpperCase(string) {
 // =============================================================================
 function getLowerCase(string) {
   // Aquí tu código
+  return string.toLowerCase();
 }
 
 // =============================================================================
@@ -44,6 +49,7 @@ function getLowerCase(string) {
 // =============================================================================
 function getTrim(string) {
   // Aquí tu código
+  return string.trim();
 }
 
 // =============================================================================
@@ -52,6 +58,7 @@ function getTrim(string) {
 // =============================================================================
 function getSplit(string) {
   // Aquí tu código
+  return string.split(" ");
 }
 
 // =============================================================================
@@ -60,6 +67,7 @@ function getSplit(string) {
 // =============================================================================
 function getReplace(string) {
   // Aquí tu código
+  return string.replace("great", "amazing");
 }
 
 // =============================================================================
@@ -68,6 +76,7 @@ function getReplace(string) {
 // =============================================================================
 function getIndexOf(string) {
   // Aquí tu código
+  return string.indexOf("The");
 }
 
 // =============================================================================
@@ -76,14 +85,16 @@ function getIndexOf(string) {
 // =============================================================================
 function getStartsWith(string) {
   // Aquí tu código
+  return string.startsWith("the");
 }
 
 // =============================================================================
 // 11. Dada la siguiente string, usa .endsWith() para devolver true
-//     si la palabra 'the' está al final de la frase.
+//     si la palabra 'here' está al final de la frase.
 // =============================================================================
 function getEndsWith(string) {
   // Aquí tu código
+  return string.endsWith("here");
 }
 
 // =============================================================================
@@ -92,6 +103,7 @@ function getEndsWith(string) {
 // =============================================================================
 function getIncludes(string) {
   // Aquí tu código
+  return string.includes('the');
 }
 
 // =============================================================================
@@ -100,6 +112,7 @@ function getIncludes(string) {
 // =============================================================================
 function getConcat(string1, string2) {
   // Aquí tu código
+  return string1 + string2;
 }
 
 // =============================================================================
