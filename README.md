@@ -12,6 +12,6 @@
 8. Dada la siguiente string, usa .replace() para devolver un string con las palabras que forman frase.
 9. Dada la siguiente string, usa .indexOf() para devolver posición de la palabra 'the'.
 10. Dada la siguiente string, usa .startsWith() para devolver true si la palabra 'the' está al principio de la frase.
-11. Dada la siguiente string, usa .endsWith() para devolver true si la palabra 'the' está al final de la frase.
+11. Dada la siguiente string, usa .endsWith() para devolver true si la palabra 'here' está al final de la frase.
 12. Dada la siguiente string, usa .includes() para devolver true si la frase contiene la palabra 'the'.
-13. Dada la siguiente string, usa .concat() para devolver string con la frase 'the-bridge' y la frase 'the-bridge'.
+13. Dada la siguiente string, usa .concat() para devolver string con la palabra 'the' y la palabra 'bridge'.

@@ -16,7 +16,7 @@ function getSubstring(string) {
 
 // =============================================================================
 // 3. Dada la siguiente string, usa .substr() para devolver palabra
-//    'the-bridge'.
+//    'bridge'.
 // =============================================================================
 function getSubstr(string) {
   // Aquí tu código
@@ -96,9 +96,9 @@ function getIncludes(string) {
 
 // =============================================================================
 // 13. Dada la siguiente string, usa .concat() para devolver string
-//     con la frase 'the-bridge' y la frase 'the-bridge'.
+//     con la palabra 'the' y la palabra 'bridge'.
 // =============================================================================
-function getConcat(string) {
+function getConcat(string1, string2) {
   // Aquí tu código
 }
 

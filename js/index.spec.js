@@ -2,7 +2,7 @@ describe("Pruebas para funciones de manipulación de cadenas de texto", function
 
   // Prueba para getCharAt
   it("Debería devolver 'b'", function() {
-    expect(getCharAt("the-bridge")).toBe("v");
+    expect(getCharAt("the-bridge")).toBe("b");
   });
 
   // Prueba para getSubstring
@@ -12,7 +12,7 @@ describe("Pruebas para funciones de manipulación de cadenas de texto", function
 
   // Prueba para getSubstr
   it("Debería devolver 'the-bridge'", function() {
-    expect(getSubstr("the-bridge-is-here")).toBe("the-bridge");
+    expect(getSubstr("the-bridge-is-here")).toBe("bridge");
   });
 
   // Prueba para getUpperCase
@@ -41,18 +41,18 @@ describe("Pruebas para funciones de manipulación de cadenas de texto", function
   });
 
   // Prueba para getIndexOf
-  it("Debería devolver la posición de 'the'", function() {
+  it("Debería devolver la posición de 'The'", function() {
     expect(getIndexOf("The Bridge is great")).toBe(0);
   });
 
   // Prueba para getStartsWith
   it("Debería devolver true si empieza con 'the'", function() {
-    expect(getStartsWith("the-bridge-is-here")).toBe(true);
+    expect(getStartsWith("the bridge is here")).toBe(true);
   });
 
   // Prueba para getEndsWith
-  it("Debería devolver true si termina con 'the'", function() {
-    expect(getEndsWith("the-bridge-is-here")).toBe(true);
+  it("Debería devolver true si termina con 'here'", function() {
+    expect(getEndsWith("the bridge is here")).toBe(true);
   });
 
   // Prueba para getIncludes
@@ -62,6 +62,6 @@ describe("Pruebas para funciones de manipulación de cadenas de texto", function
 
   // Prueba para getConcat
   it("Debería devolver 'the-bridgethe-bridge'", function() {
-    expect(getConcat("the-bridge", "the-bridge")).toBe("the-bridgethe-bridge");
+    expect(getConcat("the", "-bridge")).toBe("the-bridge");
   });
 });
