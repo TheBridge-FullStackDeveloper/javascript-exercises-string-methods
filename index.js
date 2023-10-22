@@ -4,7 +4,7 @@
 // =============================================================================
 function getCharAt(string) {
   // Aquí tu código
-  return string.charAt("4")
+  return string.charAt('4')
 }
 
 // =============================================================================
@@ -58,7 +58,7 @@ function getTrim(string) {
 // =============================================================================
 function getSplit(string) {
   // Aquí tu código
-  return string.split(" ")
+  return string.split(' ')
 }
 
 // =============================================================================
@@ -67,7 +67,7 @@ function getSplit(string) {
 // =============================================================================
 function getReplace(string) {
   // Aquí tu código
-  return string.replace("great", "amazing")
+  return string.replace('great', 'amazing')
 }
 
 // =============================================================================
@@ -76,7 +76,7 @@ function getReplace(string) {
 // =============================================================================
 function getIndexOf(string) {
   // Aquí tu código
-  return string.indexOf("The")
+  return string.indexOf('The')
 }
 
 // =============================================================================
@@ -85,7 +85,7 @@ function getIndexOf(string) {
 // =============================================================================
 function getStartsWith(string) {
   // Aquí tu código
-
+  return string.startsWith('the')
 }
 
 // =============================================================================
@@ -94,6 +94,7 @@ function getStartsWith(string) {
 // =============================================================================
 function getEndsWith(string) {
   // Aquí tu código
+  return string.endsWith('here')
 }
 
 // =============================================================================
@@ -102,6 +103,7 @@ function getEndsWith(string) {
 // =============================================================================
 function getIncludes(string) {
   // Aquí tu código
+  return string.includes('the')
 }
 
 // =============================================================================
@@ -110,6 +112,7 @@ function getIncludes(string) {
 // =============================================================================
 function getConcat(string1, string2) {
   // Aquí tu código
+  return string1.concat(string2)
 }
 
 // =============================================================================
