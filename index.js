@@ -3,7 +3,8 @@
 //    'b' de cada uno de los elementos de la string en la palabra the-bridge.
 // =============================================================================
 function getCharAt(string) {
-  // Aquí tu código
+  const getCharAt = string.charAt(4);
+  return getCharAt;
 }
 
 // =============================================================================
@@ -11,7 +12,8 @@ function getCharAt(string) {
 //    palabra 'the-bridge'.
 // =============================================================================
 function getSubstring(string) {
-  // Aquí tu código
+  const getSubstring = string.substring(0, 10);
+  return getSubstring;
 }
 
 // =============================================================================
@@ -19,7 +21,8 @@ function getSubstring(string) {
 //    'bridge'.
 // =============================================================================
 function getSubstr(string) {
-  // Aquí tu código
+  const getSubstr = string.substr(4, 6);
+  return getSubstr;
 }
 
 // =============================================================================
@@ -27,7 +30,8 @@ function getSubstr(string) {
 //    palabra 'THE-BRIDGE'.
 // =============================================================================
 function getUpperCase(string) {
-  // Aquí tu código
+  const getUpperCase = string.toUpperCase();
+  return getUpperCase;
 }
 
 // =============================================================================
@@ -35,7 +39,8 @@ function getUpperCase(string) {
 //    palabra 'the-bridge'.
 // =============================================================================
 function getLowerCase(string) {
-  // Aquí tu código
+  const getLowerCase = string.toLowerCase();
+  return getLowerCase;
 }
 
 // =============================================================================
@@ -43,7 +48,8 @@ function getLowerCase(string) {
 //    'the-bridge'.
 // =============================================================================
 function getTrim(string) {
-  // Aquí tu código
+  const getTrim = string.trim();
+  return getTrim;
 }
 
 // =============================================================================
@@ -51,7 +57,8 @@ function getTrim(string) {
 //    con las palabras que forman la frase.
 // =============================================================================
 function getSplit(string) {
-  // Aquí tu código
+  const getSplit = string.split(" ");
+  return getSplit;
 }
 
 // =============================================================================
@@ -59,7 +66,8 @@ function getSplit(string) {
 //    con las palabras que forman la frase.
 // =============================================================================
 function getReplace(string) {
-  // Aquí tu código
+  const getReplace = string.replace("great", "amazing");
+  return getReplace;
 }
 
 // =============================================================================
@@ -67,7 +75,8 @@ function getReplace(string) {
 //    de la palabra 'The'.
 // =============================================================================
 function getIndexOf(string) {
-  // Aquí tu código
+  const getIndexOf = string.indexOf('The');
+  return getIndexOf;
 }
 
 // =============================================================================
@@ -75,7 +84,8 @@ function getIndexOf(string) {
 //     si la palabra 'the' está al principio de la frase.
 // =============================================================================
 function getStartsWith(string) {
-  // Aquí tu código
+  const getStartsWith = string.startsWith('the');
+  return getStartsWith;
 }
 
 // =============================================================================
@@ -83,7 +93,8 @@ function getStartsWith(string) {
 //     si la palabra 'here' está al final de la frase.
 // =============================================================================
 function getEndsWith(string) {
-  // Aquí tu código
+  const getEndsWith = string.endsWith('here');
+  return getEndsWith;
 }
 
 // =============================================================================
@@ -91,7 +102,8 @@ function getEndsWith(string) {
 //     si la frase contiene la palabra 'the'.
 // =============================================================================
 function getIncludes(string) {
-  // Aquí tu código
+  const getIncludes = string.includes('the');
+  return getIncludes;
 }
 
 // =============================================================================
@@ -99,7 +111,8 @@ function getIncludes(string) {
 //     con la palabra 'the' y la palabra 'bridge'.
 // =============================================================================
 function getConcat(string1, string2) {
-  // Aquí tu código
+  const getConcat = string1.concat(string2);
+  return getConcat;
 }
 
 // =============================================================================
