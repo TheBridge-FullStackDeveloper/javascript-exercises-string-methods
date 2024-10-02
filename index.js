@@ -1,10 +1,16 @@
 // =============================================================================
+string = 'the-bridge';
 // 1. Dada la siguiente string, usa .charAt() para devolver letra
 //    'b' de cada uno de los elementos de la string en la palabra the-bridge.
 // =============================================================================
 function getCharAt(string) {
   // Aquí tu código
+  console.log(string.charAt(4)); 
 }
+
+getCharAt(string);
+
+
 
 // =============================================================================
 // 2. Dada la siguiente string, usa .substring() para devolver
@@ -12,7 +18,10 @@ function getCharAt(string) {
 // =============================================================================
 function getSubstring(string) {
   // Aquí tu código
+  console.log(string.substring(0, 10));
 }
+
+getSubstring(string);
 
 // =============================================================================
 // 3. Dada la siguiente string, usa .substr() para devolver palabra
@@ -20,7 +29,10 @@ function getSubstring(string) {
 // =============================================================================
 function getSubstr(string) {
   // Aquí tu código
+  console.log(string.substring(4, 10));
 }
+
+getSubstr(string);
 
 // =============================================================================
 // 4. Dada la siguiente string, usa .toUpperCase() para devolver
@@ -28,7 +40,11 @@ function getSubstr(string) {
 // =============================================================================
 function getUpperCase(string) {
   // Aquí tu código
+  console.log(string.toUpperCase());
 }
+getUpperCase(string);
+
+
 
 // =============================================================================
 // 5. Dada la siguiente string, usa .toLowerCase() para devolver
@@ -44,7 +60,10 @@ function getLowerCase(string) {
 // =============================================================================
 function getTrim(string) {
   // Aquí tu código
+  console.log(string.trim());
 }
+
+getTrim(string);
 
 // =============================================================================
 // 7. Dada la siguiente string, usa .split() para devolver un array
@@ -52,7 +71,11 @@ function getTrim(string) {
 // =============================================================================
 function getSplit(string) {
   // Aquí tu código
+  console.log(string.split(''));
 }
+
+getSplit(string);
+
 
 // =============================================================================
 // 8. Dada la siguiente string, usa .replace() para devolver un string
@@ -60,7 +83,10 @@ function getSplit(string) {
 // =============================================================================
 function getReplace(string) {
   // Aquí tu código
+  console.log(string.replace('-', ' '));
 }
+
+getReplace(string);
 
 // =============================================================================
 // 9. Dada la siguiente string, usa .indexOf() para devolver posición
@@ -68,7 +94,10 @@ function getReplace(string) {
 // =============================================================================
 function getIndexOf(string) {
   // Aquí tu código
+  console.log(string.indexOf('The'));
 }
+
+getIndexOf(string);
 
 // =============================================================================
 // 10. Dada la siguiente string, usa .startsWith() para devolver true
@@ -76,7 +105,12 @@ function getIndexOf(string) {
 // =============================================================================
 function getStartsWith(string) {
   // Aquí tu código
+  console.log(string.trim().startsWith('the'));
 }
+
+getStartsWith(string);
+
+
 
 // =============================================================================
 // 11. Dada la siguiente string, usa .endsWith() para devolver true
@@ -84,7 +118,10 @@ function getStartsWith(string) {
 // =============================================================================
 function getEndsWith(string) {
   // Aquí tu código
+  console.log(string.endsWith('here'));
 }
+
+getEndsWith(string);
 
 // =============================================================================
 // 12. Dada la siguiente string, usa .includes() para devolver true
@@ -92,7 +129,10 @@ function getEndsWith(string) {
 // =============================================================================
 function getIncludes(string) {
   // Aquí tu código
+  console.log(string.includes('the'));
 }
+
+getIncludes(string);
 
 // =============================================================================
 // 13. Dada la siguiente string, usa .concat() para devolver string
@@ -100,6 +140,9 @@ function getIncludes(string) {
 // =============================================================================
 function getConcat(string1, string2) {
   // Aquí tu código
+  console.log(string1.concat(string2));
 }
+
+getConcat('the', 'bridge');
 
 // =============================================================================
