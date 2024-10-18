@@ -56,9 +56,11 @@ function getSplit(string) {
 
 // =============================================================================
 // 8. Dada la siguiente string, usa .replace() para devolver un string
-//    con las palabras que forman la frase.
+//    con las palabra remplazadas, el primer parametro es la string y el segundo
+//    es la palabra que hay que remplazar y el terzer parametro es la palabra que
+//    hay que añadir
 // =============================================================================
-function getReplace(string) {
+function getReplace(string, wordToReplace, wordToAdd) {
   // Aquí tu código
 }
 
