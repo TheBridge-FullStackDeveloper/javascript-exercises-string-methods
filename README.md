@@ -8,7 +8,7 @@
 4. Dada la siguiente string, usa `.toUpperCase()` para devolver palabra 'THE-BRIDGE'.
 5. Dada la siguiente string, usa `.toLowerCase()` para devolver palabra 'the-bridge'.
 6. Dada la siguiente string, usa `.trim()` para devolver palabra 'the-bridge'.
-7. Dada la siguiente string, usa `.split()` para devolver un array con las palabrasas en la frase
+7. Dada la siguiente string, usa `.split()` para devolver un array con las palabrasas de la frase divididas por __espacios__
 8. Dada la siguiente string, usa `.replace()` para devolver un string con las palabras par formar la frase `The Bridge is amazing`
 9. Dada la siguiente string, usa `.indexOf()` para devolver posición de la palabra 'the'.
 10. Dada la siguiente string, usa `.startsWith()` para devolver true si la palabra 'the' está al principio de la frase.
