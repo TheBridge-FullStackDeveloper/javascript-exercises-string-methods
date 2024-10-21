@@ -4,6 +4,7 @@
 // =============================================================================
 function getCharAt(string) {
   // Aquí tu código
+  return string.charAt(4)
 }
 
 // =============================================================================
@@ -12,6 +13,7 @@ function getCharAt(string) {
 // =============================================================================
 function getSubstring(string) {
   // Aquí tu código
+  return string.substring(0,10)
 }
 
 // =============================================================================
@@ -19,7 +21,8 @@ function getSubstring(string) {
 //    'bridge'.
 // =============================================================================
 function getSubstr(string) {
-  // Aquí tu código
+  // Aquí tu código string = the-bridge
+  return string.substr(4,10)
 }
 
 // =============================================================================
@@ -28,6 +31,7 @@ function getSubstr(string) {
 // =============================================================================
 function getUpperCase(string) {
   // Aquí tu código
+  return string.toUpperCase()
 }
 
 // =============================================================================
@@ -36,6 +40,7 @@ function getUpperCase(string) {
 // =============================================================================
 function getLowerCase(string) {
   // Aquí tu código
+  return string.toLowerCase()
 }
 
 // =============================================================================
@@ -44,6 +49,7 @@ function getLowerCase(string) {
 // =============================================================================
 function getTrim(string) {
   // Aquí tu código
+  return string.trim()
 }
 
 // =============================================================================
@@ -52,6 +58,7 @@ function getTrim(string) {
 // =============================================================================
 function getSplit(string) {
   // Aquí tu código
+  return string.split("-")
 }
 
 // =============================================================================
@@ -61,7 +68,9 @@ function getSplit(string) {
 //    hay que añadir
 // =============================================================================
 function getReplace(string, wordToReplace, wordToAdd) {
-  // Aquí tu código
+  // Aquí tu código return The Bridge is amazing
+  const newString = string.replace("bridge", "remplazado");
+  return newString
 }
 
 // =============================================================================
@@ -70,6 +79,7 @@ function getReplace(string, wordToReplace, wordToAdd) {
 // =============================================================================
 function getIndexOf(string) {
   // Aquí tu código
+  return string.indexOf("The")
 }
 
 // =============================================================================
@@ -78,6 +88,8 @@ function getIndexOf(string) {
 // =============================================================================
 function getStartsWith(string) {
   // Aquí tu código
+  const start = string.startsWith("the")
+  return start 
 }
 
 // =============================================================================
@@ -86,6 +98,8 @@ function getStartsWith(string) {
 // =============================================================================
 function getEndsWith(string) {
   // Aquí tu código
+  const end = string.endsWith("here")
+  return end 
 }
 
 // =============================================================================
@@ -94,6 +108,7 @@ function getEndsWith(string) {
 // =============================================================================
 function getIncludes(string) {
   // Aquí tu código
+  return string.includes("the")
 }
 
 // =============================================================================
@@ -102,6 +117,7 @@ function getIncludes(string) {
 // =============================================================================
 function getConcat(string1, string2) {
   // Aquí tu código
+  return string1.concat(string2)
 }
 
 // =============================================================================
